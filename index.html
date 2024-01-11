@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css'
+    integrity='sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=='
+    crossorigin='anonymous' />
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js'
+    integrity='sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=='
+    crossorigin='anonymous'></script>
+  <script src="./js/index.js"></script>
+  <title>AOS</title>
+</head>
+
+<body>
+  <div class="container">
+    <!-- fade -->
+    <div class="box" data-aos="fade-up">fade-up</div>
+    <div class="box" data-aos="fade-down">fade-dow</div>
+    <div class="box" data-aos="fade-right">fade-right</div>
+    <div class="box" data-aos="fade-left">fade-left</div>
+    <div class="box" data-aos="fade-up-right">fade-up-right</div>
+    <div class="box" data-aos="fade-up-left">fade-up-left</div>
+    <div class="box" data-aos="fade-down-right">fade-down-right</div>
+    <div class="box" data-aos="fade-down-left">fade-down-left</div>
+    <!-- filp -->
+    <div class="box" data-aos="flip-left">flip-left</div>
+    <div class="box" data-aos="flip-right">flip-right</div>
+    <div class="box" data-aos="flip-up">flip-up</div>
+    <div class="box" data-aos="flip-down">flip-down</div>
+    <!-- zoom -->
+
+    <div class="box" data-aos="zoom-in">zoom-in</div>
+    <div class="box" data-aos="zoom-in-up">zoom-in-up</div>
+    <div class="box" data-aos="zoom-in-dowm">zoom-in-dowm</div>
+    <div class="box" data-aos="zoom-in-left">zoom-in-left</div>
+    <div class="box" data-aos="zoom-in-right">zoom-in-right</div>
+    <div class="box" data-aos="zoom-out">zoom-out</div>
+    <div class="box" data-aos="zoom-out-up">zoom-out-up</div>
+    <div class="box" data-aos="zoom-out-down">zoom-out-down</div>
+    <div class="box" data-aos="zoom-out-left">zoom-out-left</div>
+    <div class="box" data-aos="zoom-out-right">zoom-out-right</div>
+  </div>
+  <hr>
+  <div class="box" data-aos="fade-up" data-aos-duration="3000">
+    data-aos-duration
+  </div>
+  <div class="box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">data-aos-easing
+  </div>
+  <div class="box" data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine">
+  </div>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
